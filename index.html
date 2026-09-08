@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog Pribadi Achmad Misbahuddin</title>
+  <link rel="stylesheet" href="Style web.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&display=swap">
+</head>
+<body>
+<div class="screen">
+    <!-- Background decoration -->
+    <div class="curve"></div>
+    <div class="squares"></div>
+
+    <div class="line l1"></div>
+    <div class="line l2"></div>
+    <div class="line l3"></div>
+
+
+    <!-- Title -->
+    <div class="top-title">
+        <span>ACHMAD MISBAHUDDIN &gt; HOME</span>
+    </div>
+
+
+   <!-- MENU -->
+<div class="menu">
+
+    <div class="menu-item active" data-page="home">
+        <span class="small-label">NEW</span>
+        <span>HOME</span>
+    </div>
+
+    <div class="menu-item" data-page="about">
+        <span class="small-label">NEW</span>
+        <span>ABOUT ME</span>
+    </div>
+
+    <div class="menu-item" data-page="contact">
+        <span class="small-label">NEW</span>
+        <span>CONTACT</span>
+    </div>
+
+</div>
+
+<!-- CHARACTER -->
+<div class="character-container">
+    <img
+        id="characterImage"
+        class="character-image"
+        src="Nero.png"
+        alt="Character"
+    >
+</div>
+
+<audio id="characterVoice"></audio>
+
+<!-- INFORMATION BOX -->
+<div class="info-container" id="infoContainer">
+    <div class="status">
+        <div class="status-inner">
+            <div class="status-header">
+                <span class="orange">Achmad Misbahuddin:</span>
+                <span class="value">Home</span>
+            </div>
+
+            <div class="Deskripsi">
+                <span>
+                    Website ini dibuat sebagai tugas developer untuk kegiatan
+                    CBT 26 yang diadakan oleh UKM Universitas Trunojoyo Madura
+                    CCC. UI Website ini dibuat dengan inspirasi UI game
+                    Fate/Extella: The Umbral Star.
+                </span>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+
+<!-- BGM -->
+<div class="bgm-control" id="bgmButton">
+    BGM <span id="bgmStatus">OFF</span>
+</div>
+
+
+<!-- AUDIO -->
+<audio id="bgmAudio" loop>
+    <source src="Fate _ EXTELLA Main Theme.mp3" type="audio/mpeg">
+</audio>
+
+<script src="java.js"></script>
+</body>
+</html>
